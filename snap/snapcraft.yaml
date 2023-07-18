@@ -6,7 +6,6 @@ description: |
   Place your OVPN certificate in the "/var/snap/openvpn-client-fast/common/" folder
   named "client.ovpn" then restart the app. 
   
-grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
 apps:
   vpn:  
