@@ -7,7 +7,7 @@ description: |
   named "client.ovpn" then restart the app. The device will be connected at boot
 
   the command is 
-  sudo cp yourfile.ovpn  /var/snap/simple-openvpn-client/common/
+  sudo cp yourfile.ovpn  /var/snap/simple-openvpn-client/common/client.ovpn
 
   
 confinement: strict # use 'strict' once you have the right plugs and slots
