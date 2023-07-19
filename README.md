@@ -7,6 +7,16 @@ the command is:
 
     sudo cp yourfile.ovpn  /var/snap/simple-openvpn-client/common/client.ovpn
 
+the app needs to be connected:
+
+The command to connect an interface is:
+
+            sudo snap connect <snap>:<plug interface>
+
+So basically:
+
+            sudo snap connect simple-openvpn-client:network-control
+            sudo snap connect simple-openvpn-client:firewall-control
 
 The apps starts at boot and connects the VPN server automatically. 
 
