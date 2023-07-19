@@ -7,7 +7,7 @@ the command is:
 
     sudo cp yourfile.ovpn  /var/snap/simple-openvpn-client/common/client.ovpn
 
-the app needs to be connected:
+# The app needs to have the right interfaces
 
 The command to connect an interface is:
 
